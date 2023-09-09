@@ -1,7 +1,7 @@
 class ApiController < ApplicationController
   def get_info
-    slack_name = 'EMMANUEL OBI' # Set the slack_name to a fixed value
-    track = 'Backend' # Set the track to a fixed value
+    slack_name = 'EMMANUEL OBI' 
+    track = 'Backend' 
 
     current_day = Time.now.strftime('%A')
     utc_time = Time.now.utc.strftime('%Y-%m-%dT%H:%M:%SZ')
