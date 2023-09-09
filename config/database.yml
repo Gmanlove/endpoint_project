@@ -12,4 +12,4 @@ development:
 
 test:
   <<: *default
-  database: endpoint-test
+  database: endpoint_test
